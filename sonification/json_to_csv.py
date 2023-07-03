@@ -4,9 +4,6 @@
 Created on Fri Jun 23 17:28:54 2023
 @author: sanjanaiyer
 
-do same thing to 20 plots; download json files, and final output shld be csv files w 20 entries
-(20 dicts like this)
-
 """
 
 import json 
