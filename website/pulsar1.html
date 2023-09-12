@@ -25,8 +25,10 @@
         <form id='nameForm'>
             
         <label for="profile1">Enter your classification here:</label>
-        <input type="text" id="profile1" maxlength="10">
-        <input type="button" id="profsubmit1" value="Submit">
+        <input type="text" id="textbox" placeholder="Type here...">
+        <button type="button" onclick="saveToFile()">Submit</button>
+      
+        <script src="script.js"></script>
         <hr/>
     <h2>Dispersion Measure Plot</h2>
 
@@ -45,8 +47,8 @@
         <form id='nameForm'>
             
         <label for="profile1">Enter your classification here:</label>
-        <input type="text" id="dm1" maxlength="10">
-        <input type="button" id="dmsubmit1" value="Submit">
+        <input type="text" id="textbox" placeholder="Type here...">
+        <button type="button" onclick="saveToFile()">Submit</button>
         <hr/>
     <h2>Time vs Phase Plot</h2>
 
@@ -62,8 +64,10 @@
         <form id='nameForm'>
             
         <label for="profile1">Enter your classification here:</label>
-        <input type="text" id="tp1" maxlength="10">
-        <input type="button" id="tpsubmit1" value="Submit">
+        <input type="text" id="textbox" placeholder="Type here...">
+        <button type="button" onclick="saveToFile()">Submit</button>
+      
+        <script src="script.js"></script>
         <hr/>
     <h2>Frequency vs Phase Plot</h2>
     <img src="/Users/pranet/Desktop/NRAO Work/2022/frontend/pulsars/pulsar 1/images/fp_plot_1.png" alt="tp1" width="300" height="500"><br>
@@ -78,20 +82,24 @@
         <form id='nameForm'>
             
         <label for="profile1">Enter your classification here:</label>
-        <input type="text" id="fp1" maxlength="10">
-        <input type="button" id="fpsubmit1" value="Submit"><br>
+        <input type="text" id="textbox" placeholder="Type here...">
+        <button type="button" onclick="saveToFile()">Submit</button>
+      
+        <script src="script.js"></script>
         <hr/><br>
     
 
     <div class='form-sub'>
         <label for="final1">Enter your final classification here:</label>
-        <input type="text" id="final1" maxlength="10">
+        <input type="text" id="textbox" placeholder="Type here...">
+        <button type="button" onclick="saveToFile()">Submit!</button>
+      
+        <script src="script.js"></script>
   <!--       <input type="button" id="finalsubmit1" value="Submit">-->
     <dialog> 
             <p>This is an HTML dialog! Click the button to close it.</p> 
         <button id="close">Close Dialog</button> 
     </dialog> 
-    <button id="show">Submit!</button> 
     </div>
  
 </form>
@@ -107,6 +115,3 @@
 
 
 </html>
-
-
-
